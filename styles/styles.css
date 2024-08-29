@@ -20,6 +20,8 @@ footer {
     color: #f9faf8;
 }
 
+/* HEADER */
+
 header {    
     padding: 16px;
 }
@@ -52,11 +54,7 @@ a {
     font-weight: 600;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* HERO SECTION */
 
 .hero-container {
     display: flex;
@@ -103,6 +101,8 @@ footer {
     align-items: center;
 }
 
+/* INFO SECTION */
+
 .info {
     margin-top: 48px;
     margin-bottom: 64px;
@@ -135,4 +135,40 @@ footer {
 
 .box-text {
     color: rgb(88, 88, 88);
+}
+
+/* QUOTE SECTION */
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 120px 16px;
+}
+
+.quote-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #1f2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-left: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
