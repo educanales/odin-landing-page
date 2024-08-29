@@ -102,3 +102,37 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+.info {
+    margin-top: 48px;
+    margin-bottom: 64px;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.info-container {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.box-container {
+    max-width: 150px;
+}
+
+.box {
+    border: #3882f6 solid 3px;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+}
+
+.box-text {
+    color: rgb(88, 88, 88);
+}
